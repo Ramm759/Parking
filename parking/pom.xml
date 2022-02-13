@@ -30,6 +30,7 @@
             <scope>test</scope>
         </dependency>
 
+
         <!-- Pour redémarrage à chaud -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
