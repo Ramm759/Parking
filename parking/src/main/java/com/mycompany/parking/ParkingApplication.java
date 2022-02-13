@@ -12,7 +12,7 @@ public class ParkingApplication {
 		SpringApplication.run(ParkingApplication.class, args);
 	}
 
-	// Cr"ation d'un Bean de configuration qui sera injecté dans ParkinkDaoImpl
+	// Création d'un Bean de configuration qui sera injecté dans ParkinkDaoImpl, RestTemplate permet d'accéder à l'Api
 	@Bean
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
 		return builder.build();
