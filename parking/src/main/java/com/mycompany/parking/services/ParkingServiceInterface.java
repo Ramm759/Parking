@@ -4,6 +4,6 @@ import com.mycompany.parking.models.Parking;
 
 import java.util.List;
 
-public interface ParkingService {
+public interface ParkingServiceInterface {
     public List<Parking> getListParkings();
 }
